@@ -1,6 +1,6 @@
 # Distribution differences
 
-This short script aims at implementing the method derived by [Chernozhukov, Fernandez-Val et Melly (2013)](http://www.mit.edu/~vchern/papers/counterfactual_2012Nov1.pdf) about differences between two distributions.
+This short script aims at implementing the method derived by [Chernozhukov, Fernandez-Val and Melly (2013)](http://www.mit.edu/~vchern/papers/counterfactual_2012Nov1.pdf) about differences between two distributions.
 
 In a nutshell, rather than decomposing differences around the mean of a variable (see Oaxaca-Blinder for instance), the current method decomposes differences on the full distribution of a variable. This allows to accurately decompose differences between two distributions of a variable - along quantiles for instance -, namely into an explained part due to observable data, and an unexplained part.
 
